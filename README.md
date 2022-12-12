@@ -31,7 +31,7 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 ### `Website hosted Link`
-[visit website](https://impetus-ff3e4.web.app/)
+[visit website](https://armuibry.github.io/Calender/)
 
 
 
