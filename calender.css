@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.select {
+    display: flex;
+    flex-direction: row;
+}
+
+.select select {
+    width: 15rem;
+    height: 3rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    margin-right: 2rem;
+}
+
+.calender {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin-top: 2rem;
+    border: 1px solid grey;
+    text-align: center;
+    border-bottom: none;
+    border-right: none;
+    
+}
+
+.calender div {
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    height: 2rem;
+    padding-top: 1rem;
+    align-self: center;
+    font-weight: 600;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+}
+
+.input input {
+    width: 14rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.input button {
+    width: 7rem;
+    background-color: #4473c5;
+    border: none;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#days {
+    margin-top: 0px;
+    margin-bottom: 3rem;
+}
+
+.green {
+    background-color: rgb(12, 143, 34);
+}
+
+.white {
+    background-color: #ffffff;
+}
